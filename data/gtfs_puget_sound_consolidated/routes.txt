@@ -1,0 +1,403 @@
+agency_id,route_id,route_short_name,route_long_name,route_type,route_desc,route_url,route_color,route_text_color,route_sort_order
+1,100001,1,,3,Kinnear - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/001.html,FDB71A,000000,
+1,100002,10,,3,Capitol Hill - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/010.html,FDB71A,000000,
+1,100003,101,,3,Renton Transit Center - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/101.html,FDB71A,000000,
+1,100004,105,,3,Renton Highlands - Renton Transit Center,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/105.html,FDB71A,000000,
+1,100005,106,,3,Renton Transit Center - Skyway - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/106.html,FDB71A,000000,
+1,100006,107,,3,Renton Transit Center - Rainier Beach,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/107.html,FDB71A,000000,
+1,100009,11,,3,Madison Park - Capitol Hill - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/011.html,FDB71A,000000,
+1,100011,111,,3,Lake Kathleen - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/111.html,FDB71A,000000,
+1,100012,113,,3,Shorewood - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/113.html,FDB71A,000000,
+1,100016,118,,3,Tahlequah - Vashon - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/118.html,FDB71A,000000,
+1,100017,119,,3,Dockton - Vashon - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/119.html,FDB71A,000000,
+1,100018,12,,3,Interlaken Park - Capitol Hill - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/012.html,FDB71A,000000,
+1,100023,124,,3,Tukwila International Blvd Sta - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/124.html,FDB71A,000000,
+1,100024,125,,3,Westwood Vill - S Seattle Coll - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/125.html,FDB71A,000000,
+1,100026,128,,3,Southcenter - Alaska Junction - Admiral District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/128.html,FDB71A,000000,
+1,100028,13,,3,Seattle Pacific - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/013.html,FDB71A,000000,
+1,100030,131,,3,Burien TC - Georgetown - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/131.html,FDB71A,000000,
+1,100031,132,,3,Burien TC - South Park - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/132.html,FDB71A,000000,
+1,100039,14,,3,Mt Baker - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/014.html,FDB71A,000000,
+1,100042,148,,3,Fairwood - Renton Transit Center,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/148.html,FDB71A,000000,
+1,100045,150,,3,Kent Station - Southcenter - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/150.html,FDB71A,000000,
+1,100048,153,,3,Kent Sounder Station - Renton Transit Center,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/153.html,FDB71A,000000,
+1,100060,168,,3,Maple Valley - Kent Sounder Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/168.html,FDB71A,000000,
+1,100062,17,,3,Loyal Heights-Sunset Hill-Ballard-Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/017.html,FDB71A,000000,
+1,100068,177,,3,Federal Way S 320th P&R - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/177.html,FDB71A,000000,
+1,100072,181,,3,Twin Lakes P&R - Auburn Station - Green River Coll,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/181.html,FDB71A,000000,
+1,100073,182,,3,Northeast Tacoma - Federal Way,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/182.html,FDB71A,000000,
+1,100074,183,,3,Federal Way - Star Lake - Kent Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/183.html,FDB71A,000000,
+1,100089,2,,3,West Queen Anne - Downtown Seattle - Madrona Park,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/002.html,FDB71A,000000,
+1,100099,208,,3,North Bend - Issaquah Transit Center,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/208.html,FDB71A,000000,
+1,100101,21,,3,Arbor Heights-Westwood Village-Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/021.html,FDB71A,000000,
+1,100104,212,,3,Eastgate P&R - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/212.html,FDB71A,000000,
+1,100111,22,,3,Westwood Villge-Shorewood-Gatewood-Alaska Junction,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/022.html,FDB71A,000000,
+1,100132,24,,3,West Magnolia - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/024.html,FDB71A,000000,
+1,100133,240,,3,Bellevue TC-South Bellevue-Eastgate-Renton TC,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/240.html,FDB71A,000000,
+1,100136,245,,3,Kirkland Transit Center - Eastgate P&R,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/245.html,FDB71A,000000,
+1,100146,255,,3,Totem Lake TC-Kirkand TC-UW Link Sta-Univ Dist,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/255.html,FDB71A,000000,
+1,100160,269,,3,Issaquah Transit Center - Marymoor Village Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/269.html,,,
+1,100161,27,,3,Colman Park - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/027.html,FDB71A,000000,
+1,100162,271,,3,Issaquah - University District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/271.html,FDB71A,000000,
+1,100169,28,,3,Whittier Heights - Fremont - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/028.html,FDB71A,000000,
+1,100173,3,,3,Summit - Downtown Seattle - Madrona,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/003.html,FDB71A,000000,
+1,100177,303,,3,Aurora Village - Northgate Station - First Hill,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/303.html,FDB71A,000000,
+1,100184,31,,3,Children's Hospital - Fremont - Central Magnolia,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/031.html,FDB71A,000000,
+1,100193,32,,3,Children's Hospital - Fremont -Seattle Center West,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/032.html,FDB71A,000000,
+1,100194,33,,3,Discovery Park - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/033.html,FDB71A,000000,
+1,100196,331,,3,Shoreline Comm Coll-Aurora Village TC-Kenmore P&R,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/331.html,FDB71A,000000,
+1,100202,345,,3,Shoreline South/148th Station - Northgate Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/345.html,FDB71A,000000,
+1,100203,346,,3,Aurora Village TC - Shoreline South/148th Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/346.html,FDB71A,000000,
+1,100205,348,,3,Richmond Beach - Shoreline North - Northgate,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/348.html,FDB71A,000000,
+1,100210,36,,3,Othello Station - Beacon Hill - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/036.html,FDB71A,000000,
+1,100214,372,,3,UW/Cascadia College - University District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/372.html,FDB71A,000000,
+1,100219,4,,3,East Queen Anne - Downtown Seattle - Judkins Park,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/004.html,FDB71A,000000,
+1,100223,43,,3,Univ Dist-Montlake-Capitol Hill-Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/043.html,FDB71A,000000,
+1,100224,44,,3,Ballard - Montlake,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/044.html,FDB71A,000000,
+1,100225,45,,3,Loyal Heights - University District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/045.html,FDB71A,000000,
+1,100228,48,,3,Mt Baker - University District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/048.html,FDB71A,000000,
+1,100229,5,,3,Shoreline CC - Greenwood - Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/005.html,FDB71A,000000,
+1,100230,50,,3,West Seattle - SODO - Beacon Hill - Columbia City,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/050.html,FDB71A,000000,
+1,100242,56,,3,Alki - Admiral District - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/056.html,FDB71A,000000,
+1,100246,57,,3,Alaska Junction - Genesee Hill - Admiral District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/057.html,FDB71A,000000,
+1,100249,60,,3,Westwood Village - Georgetown - Broadway,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/060.html,FDB71A,000000,
+1,100252,62,,3,Sand Point - Green Lake - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/062.html,FDB71A,000000,
+1,100254,65,,3,Lake City  - University District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/065.html,FDB71A,000000,
+1,100259,67,,3,Northgate - Roosevelt - University District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/067.html,FDB71A,000000,
+1,100263,7,,3,Prentice St - Rainier Beach - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/007.html,FDB71A,000000,
+1,100264,70,,3,University District - Eastlake - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/070.html,FDB71A,000000,
+1,100269,75,,3,Northgate - Lake City - Sand Point - Univ District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/075.html,FDB71A,000000,
+1,100272,773,,3,Seacrest Park - West Seattle Junction,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/773.html,,,
+1,100275,8,,3,Seattle Center - Capitol Hill - Rainier Beach,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/008.html,FDB71A,000000,
+1,100289,9,,3,Rainier Beach - Columbia City - Broadway,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/009.html,FDB71A,000000,
+1,100290,901,,3,Mirror Lake - Federal Way,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/901.html,,,
+1,100292,903,,3,Twin Lakes - Federal Way,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/903.html,,,
+1,100297,914,,3,Downtown Kent - Kent East Hill,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/914.html,,,
+1,100300,917,,3,Pacific - Algona - Auburn Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/917.html,,,
+1,100336,973,,4,Water Taxi: West Seattle - Downtown Seattle,http://www.kingcounty.gov/transportation/kcdot/WaterTaxi.aspx,4298CC,FFFFFF,
+1,100337,975,,4,Water Taxi: Vashon Island - Downtown Seattle,http://www.kingcounty.gov/transportation/kcdot/WaterTaxi.aspx,32CD32,FFFFFF,
+1,100341,982,,3,Bear Creek P&R - Lakeside School,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/982.html,FDB71A,000000,
+1,100344,986,,3,Kirkland - Lakeside School,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/986.html,FDB71A,000000,
+1,100345,987,,3,Rainier Beach - Lakeside School,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/987.html,FDB71A,000000,
+1,100346,988,,3,Madrona - Lakeside School,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/988.html,FDB71A,000000,
+1,100347,989,,3,Eastgate - Lakeside School,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/989.html,FDB71A,000000,
+1,100447,49,,3,Univ District - Broadway - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/049.html,FDB71A,000000,
+1,100459,218,,3,Issaquah Highlands - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/218.html,FDB71A,000000,
+1,100473,981,,3,Lakeside School - Houghton P&R,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/981.html,FDB71A,000000,
+1,100481,775,,3,Seacrest Park - Admiral District - Alki,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/775.html,,,
+1,100487,102,,3,Fairwood - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/102.html,FDB71A,000000,
+1,100489,156,,3,Southcenter - SeaTac - Kent Des Moines Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/156.html,FDB71A,000000,
+1,100495,193,,3,Federal Way S 320th P&R-Federal Way -First Hill,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/193.html,FDB71A,000000,
+1,100496,930,,3,Kingsgate P&R - Redmond Town Center,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/930.html,,,
+1,100512,A Line,A-Line Rapid Ride,3,Federal Way - SeaTac - Tukwila Intl Blvd Sta,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/a-line.html,9C182F,FFFFFF,
+1,102548,B Line,B-Line Rapid Ride,3,Redmond TC - Overlake TC - Bellevue TC,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/b-line.html,9C182F,FFFFFF,
+1,102552,226,,3,South Bellevue - Eastgate P&R - Bellevue TC,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/226.html,FDB71A,000000,
+1,102555,893,,3,Forbes Crk - Kirkland - Lk WA HS,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/893.html,FDB71A,000000,
+1,102557,915,,3,Enumclaw - Auburn Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/915.html,,,
+1,102558,931,,3,UW/Cascadia College - Duvall,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/931.html,,,
+1,102561,907,,3,Enumclaw - Renton TC,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/907.html,,,
+1,102574,40,,3,Northgte-Ballard-Fremont-Westlake-Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/040.html,FDB71A,000000,
+1,102576,C Line,C-Line Rapid Ride,3,Westwood Village - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/c-line.html,9C182F,FFFFFF,
+1,102581,D Line,D-Line Rapid Ride,3,Blue Ridge/Crown Hill - Ballard - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/d-line.html,9C182F,FFFFFF,
+1,102593,906,,3,Fairwood - Southcenter - Tukwila Sounder Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/906.html,,,
+1,102615,E Line,E-Line Rapid Ride,3,Aurora Village Transit Center - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/e-line.html,9C182F,FFFFFF,
+1,102619,F Line,F-Line Rapid Ride,3,Burien TC - Tukwila Intl Blvd Sta - Renton Landing,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/f-line.html,9C182F,FFFFFF,
+1,102628,895,,3,Ardmore Park - Lake WA HS,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/895.html,FDB71A,000000,
+1,102634,630,,3,So Mercer Island - First Hill - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/630.html,,,
+1,102636,631,,3,Gregory Heights - Burien Transit Center,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/631.html,,,
+1,102646,Trailhead Direct Issaquah Alps,,3,Mount Baker TC - Issaquah Alps,https://trailheaddirect.org/issaquah-alps-2024/,F7B6D2,000000,
+1,102647,635,,3,Des Moines Marina District - Angle Lake Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/635.html,,,
+1,102650,Trailhead Direct Mt. Si,,3,Capitol Hill - Mt. Si,https://trailheaddirect.org/mount-si/,8C6D31,FFFFFF,
+1,102652,204,,3,S Mercer Island-Island Crest Way-Mercer Island P&R,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/204.html,,,
+1,102653,224,,3,Duvall - Redmond Transit Center,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/224.html,,,
+1,102698,Duvall-Monroe Shuttle,,3,Duvall - Monroe Shuttle,https://svtbus.org/get-a-ride/duvall-monroe-shuttle/,,,
+1,102699,Valley Shuttle,,3,No. Bend-Snoqualmie-Fall City-Carnation-Duvall,https://svtbus.org/get-a-ride/valley-shuttle/,,,
+1,102701,225,,3,Kenmore - Totem Lake TC - Overlake Park & Ride,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/225.html,FDB71A,000000,
+1,102702,239,,3,UW/Cascadia Coll - Totem Lake TC - Kirkland TC,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/239.html,FDB71A,000000,
+1,102703,231,,3,Woodinville - Brickyard - Juanita - Kirkland TC,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/231.html,FDB71A,000000,
+1,102704,250,,3,Avondale -  Redmond TC - Kirkland TC - Bellevue TC,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/250.html,FDB71A,000000,
+1,102705,230,,3,North Creek - Bothell - Juanita - Kirkland TC,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/230.html,FDB71A,000000,
+1,102715,162,,3,Lake Meridian P&R - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/162.html,FDB71A,000000,
+1,102717,165,,3,Green River College - Kent - Des Moines - Burien,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/165.html,FDB71A,000000,
+1,102718,184,,3,Auburn Station - White River Junction,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/184.html,FDB71A,000000,
+1,102719,161,,3,Burien - Kent Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/161.html,FDB71A,000000,
+1,102720,160,,3,Renton TC - Kent Station - Auburn Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/160.html,FDB71A,000000,
+1,102729,322,,3,Kenmore P&R - 12 Av/E Terrace St,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/322.html,FDB71A,000000,
+1,102732,79,,3,Greenlake - University District,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/079.html,FDB71A,000000,
+1,102736,H Line,H-Line Rapid Ride,3,Burien TC - Westwood Village - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/h-line.html,9C182F,FFFFFF,
+1,102744,365,,3,Northgate Station - Shoreline Link Stations,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/365.html,FDB71A,000000,
+1,102745,G Line,G-Line Rapid Ride,3,Madison Valley - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/g-line.html,9C182F,FFFFFF,
+1,102746,333,,3,Shoreline South/148 - Mountlake Terrace Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/333.html,FDB71A,000000,
+1,102747,61,,3,Lake City - Northgate - Greenwood,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/061.html,FDB71A,000000,
+1,102752,223,,3,Eastgate P&R - Downtown Redmond Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/223.html,FDB71A,000000,
+1,102753,222,,3,Redmond Technology - Education Hill - Cottage Lake,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/222.html,FDB71A,000000,
+1,102754,256,,3,Woodinville - Downtown Seattle,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/256.html,FDB71A,000000,
+1,102755,203,,3,Issaquah Highlands - South Bellevue Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/203.html,FDB71A,000000,
+1,102756,249,,3,Spring District Station - South Bellevue Station,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/249.html,,,
+1,102757,187,,3,Federal Way - Twin Lakes,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/187.html,FDB71A,000000,
+1,102759,Metro Match Day Shuttle,,3,Seattle Stadium - Seattle Center,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/605.html,4A148C,0EF2B0,
+1,102763,Waterfront Shuttle,,3,Seattle Center - Downtown Seattle - Pioneer Square,https://kingcounty.gov/en/dept/metro/routes-and-service/schedules-and-maps/616.html,,,
+19,13,13,Capitol Blvd,3,,https://www.intercitytransit.com/plan-your-trip/routes/13,005BAA,ffffff,2
+19,15,15,Littlerock Rd,3,,,005BAA,ffffff,3
+19,19-16,16,Mottman Rd,3,,,006B3F,ffffff,4
+19,19-41,41,Nightline,3,,https://www.intercitytransit.com/plan-your-trip/routes/41,000000,ffffff,58
+19,19-52,52,College St/Yelm Hwy,3,,,005BAA,ffffff,26
+19,19-600,600,Lakewood Commuter,3,,,66A9D8,000000,52
+19,20,20,Legion Way/Union Ave,3,,,005BAA,ffffff,5
+19,21,21,Friendly Grove,3,,https://www.intercitytransit.com/plan-your-trip/routes/21,006B3F,ffffff,6
+19,22,22,Union Ave/Legion Way,3,,,006B3F,ffffff,8
+19,24,24,Capitol Campus/SPSCC,3,,,005BAA,ffffff,9
+19,30,30,Capital Mall Dr,3,,,005BAA,ffffff,10
+19,31,31,Conger Ave/Capital Mall,3,,,006B3F,ffffff,12
+19,32,32,SPSCC/The Evergreen State College,3,,,005BAA,ffffff,14
+19,33,33,Black Lake Blvd,3,,,006B3F,ffffff,16
+19,34,34,The Evergreen State College/Capital Mall,3,,,E27D1F,ffffff,18
+19,35,35,Courthouse/Capital Mall,3,,,E27D1F,ffffff,20
+19,50,50,Martin Way,3,,,005BAA,ffffff,22
+19,51,51,Farmers Market/Lacey,3,,,006B3F,ffffff,24
+19,610,610,Lacey Connector,3,,,66A9D8,000000,54
+19,70,70,Tumwater/Lacey,3,,,006B3F,ffffff,28
+19,71,71,Britton Pkwy/Marvin Rd,3,,,006B3F,ffffff,30
+19,72,72,Carpenter Rd/Corporate Center,3,,,006B3F,ffffff,32
+19,73,73,Golf Club Rd/22nd Ave,3,,,006B3F,ffffff,34
+19,74,74,Lilly Rd/26th Ave,3,,,006B3F,ffffff,36
+19,75,75,Pacific Ave/Steilacoom Rd,3,,,005BAA,ffffff,40
+19,76,76,Ruddell/SPSCC,3,,,005BAA,ffffff,42
+19,77,77,Marvin Rd/Willamette Dr,3,,,E27D1F,ffffff,44
+19,78,78,Willamette Dr/Marvin Rd,3,,,E27D1F,ffffff,46
+19,9,9X,Crosstown Express,3,,,E27D1F,ffffff,1
+19,90,90,Yelm/Lacey,3,,,005BAA,ffffff,50
+20,104,104,Tremont,3,,https://www.kitsaptransit.com/service/routed-buses/south-kitsap/104-tremont,c0504d,ffffff,3000
+20,105,105,Sidney,3,,https://www.kitsaptransit.com/service/routed-buses/south-kitsap/105-sidney,1d1b11,ffffff,3010
+20,108,108,Bethel,3,,https://www.kitsaptransit.com/service/routed-buses/108-bethel,0004ff,ffffff,3020
+20,109,109,East Port Orchard,3,,https://www.kitsaptransit.com/service/routed-buses/109-east-port-orchard,803a66,ffffff,3030
+20,119,119,Madrona,3,,https://www.kitsaptransit.com/service/routed-buses/119-madrona,b2752d,ffffff,3040
+20,181,181,Annapolis,3,,https://www.kitsaptransit.com/service/routed-buses/south-kitsap/181-annapolis-commuter,1f497d,ffffff,3050
+20,184,184,Harper Shuttle,3,,http://www.kitsaptransit.com/service/routed-buses/184-harper-shuttle,1d1b11,ffffff,3060
+20,185,185,Mullenix,3,,https://www.kitsaptransit.com/service/routed-buses/south-kitsap/185-mullenix,215867,ffffff,3070
+20,186,186,Southworth,3,,https://www.kitsaptransit.com/service/routed-buses/186-southworth,ff0000,ffffff,3080
+20,20-212,212,Bremerton-Silverdale West,3,,http://www.kitsaptransit.com/service/routed-buses/212-bremertonsilverdale-west,c00000,ffffff,3090
+20,20-333,333,Silverdale/Bainbridge,3,,https://www.kitsaptransit.com/service/routed-buses/333-silverdalebainbridge,ff0000,ffffff,3300
+20,20-400,400,Bremerton to Seattle Fast Ferry,4,,https://www.kitsaptransit.com/service/fast-ferry/bremerton-fast-ferry,0070c0,ffffff,1000
+20,20-402,402,Southworth to Seattle Fast Ferry,4,,https://www.kitsaptransit.com/service/fast-ferry/southworth-fast-ferry,0070c0,ffffff,1020
+20,20-500,500,Port Orchard Foot Ferry,4,,http://www.kitsaptransit.com/service/foot-ferry,e46c0a,ffffff,1060
+20,20-501,501,Annapolis Foot Ferry,4,,https://www.kitsaptransit.com/service/foot-ferry#Annapolis,e46c0a,ffffff,1070
+20,215,215,McWilliams,3,,https://www.kitsaptransit.com/service/routed-buses/215-mcwilliams-commuter,ffc000,000000,3100
+20,217,217,Bremerton-Silverdale East,3,,http://www.kitsaptransit.com/service/routed-buses/217-bremertonsilverdale-east,002060,ffffff,3110
+20,219,219,Crossroads,3,,https://www.kitsaptransit.com/service/routed-buses/219-crossroads-commuter,b2752d,ffffff,3120
+20,220,220,Sunn Fjord,3,,http://www.kitsaptransit.com/service/routed-buses/220-sunn-fjord,4e6128,ffffff,3130
+20,221,221,Perry Avenue,3,,https://www.kitsaptransit.com/service/routed-buses/221-perry-avenue,7030a0,ffffff,3140
+20,222,222,Gateway Express,3,,http://www.kitsaptransit.com/service/routed-buses/222-gateway-express,c90000,ffffff,3150
+20,223,223,Kariotis,3,,http://www.kitsaptransit.com/service/routed-buses/223-kariotis,31859b,ffffff,3160
+20,224,224,Olympic College,3,,http://www.kitsaptransit.com/service/routed-buses/224-olympic-college,ff0000,ffffff,3170
+20,225,225,Sheridan Park,3,,http://www.kitsaptransit.com/service/routed-buses/225-sheridan-park,e46c0a,ffffff,3180
+20,226,226,Bay Vista,3,,http://www.kitsaptransit.com/service/routed-buses/226-bay-vista,604a7b,ffffff,3190
+20,228,228,Marion,3,,http://www.kitsaptransit.com/service/routed-buses/228-marion,31859b,ffffff,3200
+20,229,229,Trenton,3,,https://www.kitsaptransit.com/service/routed-buses/229-trenton-commuter,ff0000,ffffff,3210
+20,238,238,W. Bremerton Express,3,,https://www.kitsaptransit.com/service/routed-buses/238-west-bremerton-express,7030a0,ffffff,3220
+20,265,265,Silverdale Central,3,,https://www.kitsaptransit.com/service/routed-buses/265-silverdale-central,e46c0a,ffffff,3230
+20,266,266,Silverdale Ridgetop,3,,https://www.kitsaptransit.com/service/routed-buses/266-silverdale-ridgetop,4e6128,ffffff,3240
+20,301,301,North Kitsap Fast Ferry Express,3,,https://www.kitsaptransit.com/service/routed-buses/301-north-kitsap-fast-ferry-express,943734,ffffff,3250
+20,302,302,Kingston/Suquamish Fast Ferry,3,,https://www.kitsaptransit.com/service/routed-buses/302-kingstonsuquamish-fast-ferry,31859b,ffffff,3260
+20,307,307,Kingston/North Viking Fast Ferry,3,,https://www.kitsaptransit.com/service/routed-buses/307-kingston-north-viking-fast-ferry-express,00b050,ffffff,3270
+20,331,331,Poulsbo/Myhre,3,,https://www.kitsaptransit.com/service/routed-buses/331-poulsbomyhre,4e6128,ffffff,3280
+20,332,332,Poulsbo/Silverdale,3,,https://www.kitsaptransit.com/service/routed-buses/332-poulsbosilverdale,7030a0,ffffff,3290
+20,344,344,Poulsbo Central,3,,https://www.kitsaptransit.com/service/routed-buses/344-poulsbo-central,0070c0,ffffff,3310
+20,377,377,BI Ferry Take Home,3,,https://www.kitsaptransit.com/service/routed-buses/bainbridge-island/BI-alt-routes,4e6128,ffffff,3320
+20,385,385,BI Downtown,3,,https://www.kitsaptransit.com/service/routed-buses/385-bidowntown,ffc000,000000,41
+20,389,389,Fletcher Bay,3,,https://www.kitsaptransit.com/service/routed-buses/389-fletcher-bay,403152,ffffff,3330
+20,390,390,Poulsbo/Bainbridge,3,,https://www.kitsaptransit.com/service/routed-buses/390-poulsbobainbridge,984807,ffffff,3340
+20,391,391,Kingston/Bainbridge,3,,http://www.kitsaptransit.com/service/routed-buses/391-kingstonbainbridge,e46c0a,ffffff,3350
+20,393,393,Manzanita,3,,https://www.kitsaptransit.com/service/routed-buses/393-manzanita,008080,ffffff,3360
+20,394,394,Agate Point,3,,https://www.kitsaptransit.com/service/routed-buses/394-agate-point,448038,ffffff,3370
+20,395,395,Battle Point,3,,https://www.kitsaptransit.com/service/routed-buses/395-battle-point,6d2f80,ffffff,3380
+20,396,396,Sunrise,3,,https://www.kitsaptransit.com/service/routed-buses/396-sunrise,943734,ffffff,3390
+20,397,397,Crystal Springs,3,,https://www.kitsaptransit.com/service/routed-buses/397-crystal-springs,002060,ffffff,3400
+20,398,398,Fort Ward,3,,https://www.kitsaptransit.com/service/routed-buses/398-fort-ward,0070c0,ffffff,3410
+20,399,399,Bill Point,3,,https://www.kitsaptransit.com/service/routed-buses/399-bill-point,1d1b11,ffffff,3420
+20,401,401,Kingston to Seattle Fast Ferry,4,,https://www.kitsaptransit.com/service/fast-ferry/kingston-fast-ferry,0070c0,ffffff,1010
+20,403,403,Seattle to Bremerton Fast Ferry,4,,https://www.kitsaptransit.com/service/fast-ferry/bremerton-fast-ferry,0070c0,ffffff,1030
+20,404,404,Seattle to Kingston Fast Ferry,4,,https://www.kitsaptransit.com/service/fast-ferry/kingston-fast-ferry,0070c0,ffffff,1040
+20,405,405,Seattle to Southworth Fast Ferry,4,,https://www.kitsaptransit.com/service/fast-ferry/southworth-fast-ferry,0070c0,ffffff,1050
+20,600,600,Burley Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/south-kitsap-county/burley-bus,c0504d,ffffff,5000
+20,602,602,Tracyton Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/central-kitsap-county/tracyton,c0504d,ffffff,5010
+20,604,604,Horseshoe Lake Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/south-kitsap-county/horseshoe-lake,c0504d,ffffff,5020
+20,605,605,Illahee Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/central-kitsap-county/illahee,c0504d,ffffff,5030
+20,607,607,Long Lake Days Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/south-kitsap-county/long-lake-days,c0504d,ffffff,5040
+20,608,608,Manchester Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/manchester-beach,c0504d,ffffff,5050
+20,612,612,Phillips/Bielmeier Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/south-kitsap-county/phillips-bielmeier,c0504d,ffffff,5060
+20,614,614,Port Gamble Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/north-kitsap-county/port-gamble,c0504d,ffffff,5070
+20,616,616,Salmonberry Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/south-kitsap-county/salmonberry,c0504d,ffffff,5080
+20,618,618,Southworth Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/south-kitsap-county/southworth,c0504d,ffffff,5090
+20,619,619,Suquamish Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/north-kitsap-county/suquamish,c0504d,ffffff,5100
+20,620,620,Winslow Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/north-kitsap-county/winslow,c0504d,ffffff,5110
+20,621,621,Woodmere Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/central-kitsap-county/woodmere,c0504d,ffffff,5120
+20,623,623,Central Valley Loop Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/central-kitsap-county/central-valley-loop,c0504d,ffffff,5130
+20,624,624,Fairgrounds Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/fairgrounds,c0504d,ffffff,5140
+20,625,625,Sidney Woods Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/south-kitsap-county/sidney-woods,c0504d,ffffff,5150
+20,626,626,Early North Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/early-north,c0504d,ffffff,5160
+20,627,627,SK/Bangor Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/south-kitsap-county/south-kitsapbangor,c0504d,ffffff,5170
+20,630,630,Olalla Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/south-kitsap-county/olalla,c0504d,ffffff,5180
+20,631,631,Chico Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/central-kitsap-county/chico-run,c0504d,ffffff,5190
+20,633,633,Viking Express Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/viking-express,c0504d,ffffff,5200
+20,635,635,Early South Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/early-south,c0504d,ffffff,5210
+20,636,636,Parkwood-Ponderosa Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/parkwood,c0504d,ffffff,5220
+20,637,637,Sunnyslope Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/sunnyslope,c0504d,ffffff,5230
+20,638,638,Seabeck/Camp Union Worker/Driver,3,,https://www.kitsaptransit.com/service/workerdriver-buses/seabeck,c0504d,ffffff,5240
+20,800,800,BI Ride,3,,https://www.kitsaptransit.com/service/routed-buses/bi-ride,2FC72A,000000,4000
+20,801,801,SK Ride,3,,https://www.kitsaptransit.com/service/routed-buses/sk-ride,2FC72A,000000,4100
+20,803,803,Kingston Ride,3,,https://www.kitsaptransit.com/service/routed-buses/kingston-ride,2FC72A,000000,4200
+20,807,807,Sunday On-Demand,3,,https://www.kitsaptransit.com/service/routed-buses/sunday-bus-service,2FC72A,000000,4300
+20,TA033,377,BI Ferry Take Home,3,,https://www.kitsaptransit.com/service/routed-buses/bainbridge-island/BI-alt-routes,4e6128,ffffff,5250
+20,TA034,377,BI Ferry Take Home,3,,https://www.kitsaptransit.com/service/routed-buses/bainbridge-island/BI-alt-routes,4e6128,ffffff,77
+23,100340,South Lake Union Streetcar,,0,Streetcar: Fairview/Aloha - Westlake/McGraw,https://www.seattle.gov/transportation/getting-around/transit/streetcar/south-lake-union-line,F47836,FFFFFF,
+23,102638,First Hill Streetcar,,0,Streetcar: Pioneer Square - Capitol Hill,https://www.seattle.gov/transportation/getting-around/transit/streetcar/first-hill-line,F47836,FFFFFF,
+29,102,102,Edmonds Station - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/102,0070C0,FFFFFF,102
+29,103,103,Hardeson Road - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/103,0070C0,FFFFFF,103
+29,106,106,Mariner P&R - UW Bothell/Cascadia College,3,,https://www.communitytransit.org/route/106,0070C0,FFFFFF,106
+29,111,111,Brier - Mountlake Terrace Station,3,,https://www.communitytransit.org/route/111,0070C0,FFFFFF,111
+29,112,112,Mountlake Terrace Station - Ash Way P&R,3,,https://www.communitytransit.org/route/112,0070C0,FFFFFF,112
+29,114,114,Aurora Village TC - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/114,0070C0,FFFFFF,114
+29,117,117,Mukilteo Ferry - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/117,0070C0,FFFFFF,117
+29,120,120,UW Bothell/Cascadia - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/120,0070C0,FFFFFF,120
+29,121,121,Ash Way P&R - UW Bothell/Cascadia College,3,,https://www.communitytransit.org/route/121,0070C0,FFFFFF,121
+29,130,130,Edmonds Station - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/130,0070C0,FFFFFF,130
+29,166,166,Edmonds Station - Silver Firs,3,,https://www.communitytransit.org/route/166,0070C0,FFFFFF,166
+29,201,201,Smokey Point TC - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/201,0070C0,FFFFFF,201
+29,209,209,Smokey Point TC - Lake Stevens TC,3,,https://www.communitytransit.org/route/209,0070C0,FFFFFF,209
+29,230,230,Darrington - Smokey Point TC,3,,https://www.communitytransit.org/route/230,0070C0,FFFFFF,230
+29,240,240,Stanwood Downtown - Smokey Point TC,3,,https://www.communitytransit.org/route/240,0070C0,FFFFFF,240
+29,270,270,Gold Bar - Everett Station,3,,https://www.communitytransit.org/route/270,0070C0,FFFFFF,270
+29,271,271,Gold Bar - Everett Station,3,,https://www.communitytransit.org/route/271,0070C0,FFFFFF,271
+29,280,280,Granite Falls P&R - Everett Station,3,,https://www.communitytransit.org/route/280,0070C0,FFFFFF,280
+29,29-101,101,Mariner P&R - Aurora Village TC,3,,https://www.communitytransit.org/route/101,0070C0,FFFFFF,101
+29,29-109,109,Ash Way P&R - Lake Stevens TC,3,,https://www.communitytransit.org/route/109,0070C0,FFFFFF,109
+29,29-119,119,Ash Way P&R - Mountlake Terrace Station,3,,https://www.communitytransit.org/route/119,0070C0,FFFFFF,119
+29,29-202,202,Smokey Point TC - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/202,0070C0,FFFFFF,202
+29,29-220,220,Arlington - Smokey Point TC,3,,https://www.communitytransit.org/route/220,0070C0,FFFFFF,220
+29,29-222,222,Marysville - Tulalip,3,,https://www.communitytransit.org/route/222,0070C0,FFFFFF,222
+29,424,424,Snohomish P&R - Seattle,3,,https://www.communitytransit.org/route/424,0070C0,FFFFFF,424
+29,701,Swift Blue,Everett Station - Shoreline North/185th Station,3,,https://www.communitytransit.org/route/701,006CFF,FFFFFF,1
+29,702,Swift Green,Seaway TC - Canyon Park P&R,3,,https://www.communitytransit.org/route/702,00AA00,FFFFFF,2
+29,703,Swift Orange,Edmonds College - McCollum Park P&R,3,,https://www.communitytransit.org/route/703,F24C21,FFFFFF,3
+29,901,901,Silver Firs - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/901,0070C0,FFFFFF,901
+29,903,903,Lake Stevens TC - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/903,0070C0,FFFFFF,903
+29,904,904,Marysville - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/904,0070C0,FFFFFF,904
+29,905,905,Stanwood Downtown - Lynnwood City Center Station,3,,https://www.communitytransit.org/route/905,0070C0,FFFFFF,905
+29,907,907,Stanwood I-5 P&R - Paine Field Airport,3,,https://www.communitytransit.org/route/907,0070C0,FFFFFF,907
+29,908,908,Bellevue - Snohomish P&R,3,,https://www.communitytransit.org/route/908,0070C0,FFFFFF,908
+29,909,909,Edmonds Station - Mountlake Terrace Station,3,,https://www.communitytransit.org/route/909,0070C0,FFFFFF,909
+3,1,1,6th Ave / Pacific Ave,3,,https://piercetransit.org/routes/route-1-6th-ave-pacific/,6cb33f,000000,
+3,10,10,Pearl St,3,,https://piercetransit.org/routes/route-10-pearl-st/,6cb33f,000000,
+3,100,100,Gig Harbor,3,,https://piercetransit.org/routes/route-100-gig-harbor/,6cb33f,000000,
+3,101,101,Gig Harbor Waterfront Connector,3,,https://piercetransit.org/connector/,ffffff,000000,
+3,11,11,Point Defiance,3,,https://piercetransit.org/routes/route-11-point-defiance/,6cb33f,000000,
+3,16,16,North End,3,,https://piercetransit.org/routes/route-16-downtown-tacoma-tcc/,6cb33f,000000,
+3,2,2,S 19th St / Bridgeport,3,,https://piercetransit.org/routes/route-2-s-19th-st/,6cb33f,000000,
+3,202,202,S 72nd St,3,,https://piercetransit.org/routes/route-202-72nd-street/,6cb33f,000000,
+3,206,206,Pacific Hwy / Tillcum / Madigan,3,,https://piercetransit.org/routes/route-206-pacific-hwy-madigan/,6cb33f,000000,
+3,212,212,Steilacoom,3,,https://piercetransit.org/routes/route-212-steilacoom/,6cb33f,000000,
+3,214,214,Washington,3,,https://piercetransit.org/routes/route-214-washington/,6cb33f,000000,
+3,28,28,S 12th St,3,,https://piercetransit.org/routes/route-28-s-12th-st/,6cb33f,000000,
+3,3,3,Lakewood / Tacoma,3,,https://piercetransit.org/routes/route-3-lakewood-tacoma/,6cb33f,000000,
+3,333,333,Fan Zone Express,3,,https://piercetransit.org/sea26/,6cb33f,000000,
+3,4,4,Lakewood / South Hill,3,,https://piercetransit.org/routes/route4-lakewood-south-hill-mall/,6cb33f,000000,
+3,400,400,Puyallup / Downtown Tacoma,3,,https://piercetransit.org/routes/route-400-puyallup-downtown-tacoma/,6cb33f,000000,
+3,402,402,Meridian,3,,https://piercetransit.org/routes/route-402-meridian/,6cb33f,000000,
+3,409,409,Puyallup / S 72nd St,3,,https://piercetransit.org/routes/route-409-puyallup-72nd-tc/,6cb33f,000000,
+3,41,41,S 56th St / Salishan,3,,https://piercetransit.org/routes/route-41-portland-ave/,6cb33f,000000,
+3,42,42,McKinley Ave,3,,https://piercetransit.org/routes/route-42-mckinley-ave/,6cb33f,000000,
+3,45,45,Yakima,3,,https://piercetransit.org/routes/route-45-yakima-ave/,6cb33f,000000,
+3,48,48,Sheridan / M St,3,,https://piercetransit.org/routes/route-48-sheridan-m-st/,6cb33f,000000,
+3,497,497,Lakeland Hills Express,3,,https://piercetransit.org/routes/route-497-lakeland-hills/,6cb33f,000000,
+3,500,500,Federal Way,3,,https://piercetransit.org/routes/route-500-federal-way/,6cb33f,000000,
+3,501,501,Milton / Federal Way,3,,https://piercetransit.org/routes/route-501-milton-tacoma/,6cb33f,000000,
+3,52,52,Fircrest / TCC,3,,https://piercetransit.org/routes/route-52-tcc-tacoma-mall/,6cb33f,000000,
+3,53,53,University Place,3,,https://piercetransit.org/routes/route-53-university-place/,6cb33f,000000,
+3,54,54,S 38th St / Portland Ave,3,,https://piercetransit.org/routes/route-54-38th-st/,6cb33f,000000,
+3,55,55,Tacoma Mall,3,,https://piercetransit.org/routes/route-55-tacoma-mall-parkland/,6cb33f,000000,
+3,57,57,Union / S 19th St / Hilltop,3,,https://piercetransit.org/routes/route-57-tacoma-mall/,6cb33f,000000,
+3,STCL,STCL,Stream TDS / Spanaway TC,3,Stream Community Line,https://www.piercetransit.org/stream-community-line,6cb33f,000000,
+40,1-SHUTTLE,Shuttle,1 Line Shuttle Bus,3,,https://www.soundtransit.org/ride-with-us/changes-affect-my-ride/planned-service-disruptions#link,FFB819,000000,
+40,100232,522,Woodinville - Seattle,3,Woodinville - Roosevelt Link Station,https://www.soundtransit.org/522,2B376E,FFFFFF,
+40,100236,545,Redmond - Seattle,3,Redmond - Seattle,https://www.soundtransit.org/545,2B376E,FFFFFF,
+40,100239,550,Bellevue - Seattle,3,Bellevue - Seattle,https://www.soundtransit.org/550,2B376E,FFFFFF,
+40,100240,554,Issaquah - Seattle,3,Issaquah - Seattle,https://www.soundtransit.org/554,2B376E,FFFFFF,
+40,100451,556,Issaquah - Northgate,3,Issaquah-University District,https://www.soundtransit.org/556,2B376E,FFFFFF,
+40,100479,1 Line,Lynnwood - Federal Way,0,1 Line runs between Lynnwood City Center Station and Federal Way Downtown Station seven days a week,https://www.soundtransit.org/1,28813F,FFFFFF,
+40,100511,542,Redmond - University District,3,Redmond - University District,https://www.soundtransit.org/542,2B376E,FFFFFF,
+40,102734,566,,3,Auburn - Redmond,https://www.soundtransit.org/566,2B376E,FFFFFF,
+40,102758,570,,3,Seattle - SeaTac Airport,https://www.soundtransit.org/570,2B376E,FFFFFF,
+40,2-SHUTTLE,Shuttle,2 Line Shuttle Bus,3,,https://www.soundtransit.org/ride-with-us/changes-affect-my-ride/planned-service-disruptions#link,FFB819,000000,
+40,2LINE,2 Line,Lynnwood - Downtown Redmond,0,2 Line runs between Lynnwood City Center Station and Downtown Redmond Station seven days a week,https://www.soundtransit.org/2,007CAD,FFFFFF,
+40,510,510,Everett - Seattle,3,,https://www.soundtransit.org/ride-with-us/routes-schedules/510,2B376E,FFFFFF,5510
+40,512,512,Everett - Northgate Station,3,,https://www.soundtransit.org/ride-with-us/routes-schedules/512,2B376E,FFFFFF,5512
+40,513,513,Seaway Transit Ctr - Northgate Station,3,,https://www.soundtransit.org/ride-with-us/routes-schedules/513,2B376E,FFFFFF,5513
+40,515,515,Lynnwood City Center Station - Seattle,3,,https://www.soundtransit.org/ride-with-us/routes-schedules/515,2B376E,FFFFFF,5515
+40,532,532,Everett - Bellevue,3,,https://www.soundtransit.org/ride-with-us/routes-schedules/532,2B376E,FFFFFF,5532
+40,535,535,Lynnwood - Bellevue,3,,https://www.soundtransit.org/ride-with-us/routes-schedules/535,2B376E,FFFFFF,5535
+40,560,560,Bellevue - Sea-Tac - W. Seattle,3,,https://www.soundtransit.org/560,2b376e,ffffff,
+40,574,574,Lakewood - SeaTac,3,,https://www.soundtransit.org/574,2b376e,ffffff,
+40,577,577,Federal Way - Seattle,3,,https://www.soundtransit.org/577,2b376e,ffffff,
+40,578,578,Puyallup - Seattle,3,,https://www.soundtransit.org/578,2b376e,ffffff,
+40,580,580,Puyallup / Lakewood,3,,https://www.soundtransit.org/580,2b376e,ffffff,
+40,586,586,Tacoma - U. District,3,,https://www.soundtransit.org/586,2b376e,ffffff,
+40,590,590,Tacoma - Seattle,3,,https://www.soundtransit.org/590,2b376e,ffffff,
+40,592,592,Olympia/DuPont - Seattle,3,,https://www.soundtransit.org/592,2b376e,ffffff,
+40,594,594,Lakewood - Seattle,3,,https://www.soundtransit.org/594,2b376e,ffffff,
+40,595,595,Gig Harbor - Seattle,3,,https://www.soundtransit.org/595,2b376e,ffffff,
+40,596,596,Bonney Lake - Sumner,3,,https://www.soundtransit.org/596,2b376e,ffffff,
+40,SNDR_EV,N Line,Everett - Seattle,2,N Line runs between Everett Station and King Street Station weekdays,https://www.soundtransit.org/N,9AB6D3,000000,
+40,SNDR_TL,S Line,Seattle - Tacoma/Lakewood,2,S Line runs between King Street Station and Tacoma Dome or Lakewood Stations weekdays,https://www.soundtransit.org/S,9AB6D3,000000,
+40,TLINE,T Line,Tacoma Dome - St Joseph,0,T Line runs between Tacoma Dome Station and St Joseph Station seven days a week,https://www.soundtransit.org/T,F38B00,000000,
+40,TLINE_S,Shuttle,T Line Replacement Shuttle Bus,3,,https://www.soundtransit.org/ride-with-us/changes-affect-my-ride/planned-service-disruptions#tline,DA7C00,FFFFFF,
+51,60,,Amtrak Cascades,2,,https://www.amtrak.com/cascades-train,677483,FFFFFF,
+95,1013,,Friday Harbor - Lopez Island,4,,,,,
+95,1015,,Friday Harbor - Orcas Island,4,,,,,
+95,1018,,Friday Harbor - Shaw Island,4,,,,,
+95,110,,Anacortes - Friday Harbor,4,,,,,
+95,1117,,Coupeville  - Port Townsend,4,,,,,
+95,113,,Anacortes - Lopez Island,4,,,,,
+95,115,,Anacortes - Orcas Island,4,,,,,
+95,118,,Anacortes - Shaw Island,4,,,,,
+95,128,,Kingston - Edmonds,4,,,,,
+95,131,,Lopez Island - Anacortes,4,,,,,
+95,1310,,Lopez Island - Friday Harbor,4,,,,,
+95,1315,,Lopez Island - Orcas Island,4,,,,,
+95,1318,,Lopez Island - Shaw Island,4,,,,,
+95,145,,Mukilteo - Clinton,4,,,,,
+95,151,,Orcas Island - Anacortes,4,,,,,
+95,1510,,Orcas Island - Friday Harbor,4,,,,,
+95,1513,,Orcas Island - Lopez Island,4,,,,,
+95,1518,,Orcas Island - Shaw Island,4,,,,,
+95,1621,,Point Defiance - Tahlequah,4,,,,,
+95,1711,,Port Townsend - Coupeville,4,,,,,
+95,1810,,Shaw Island - Friday Harbor,4,,,,,
+95,1813,,Shaw Island - Lopez Island,4,,,,,
+95,1815,,Shaw Island - Orcas Island,4,,,,,
+95,2022,,Southworth - Vashon Island,4,,,,,
+95,2116,,Tahlequah - Point Defiance,4,,,,,
+95,2220,,Vashon Island - Southworth,4,,,,,
+95,37,,Bainbridge Island - Seattle,4,,,,,
+95,47,,Bremerton - Seattle,4,,,,,
+95,514,,Clinton - Mukilteo,4,,,,,
+95,812,,Edmonds - Kingston,4,,,,,
+95,920,,Fauntleroy - Southworth,4,,,,,
+95,922,,Fauntleroy - Vashon Island,4,,,,,
+95,95-101,,Friday Harbor - Anacortes,4,,,,,
+95,95-181,,Shaw Island - Anacortes,4,,,,,
+95,95-209,,Southworth - Fauntleroy,4,,,,,
+95,95-229,,Vashon Island - Fauntleroy,4,,,,,
+95,95-73,,Seattle - Bainbridge Island,4,,,,,
+95,95-74,,Seattle - Bremerton,4,,,,,
+96,SCM,Monorail,Seattle Center - Westlake,2,,,,,
+97,18,6,N to Waterfront  - S to Everett Station,3,,,000000,FFFFFF,
+97,5,8,S to S Evt Frwy Station - N to Everett Station,3,,,000000,FFFFFF,
+97,6,12,W to Seaway TC - E to Mall Station,3,,,000000,FFFFFF,
+97,7,18,W to Mukilteo - E to Everett Station,3,,,000000,FFFFFF,
+97,8,29,N to College Station - S to Mall Station,3,,,000000,FFFFFF,
+97,857,19,S to Everett Station - N to College Station,3,,,000000,FFFFFF,
+97,97-1,2,S to Mariner P&R - N to Mall Station,3,,,000000,FFFFFF,
+97,97-2,3,S to Seaway TC - N to Everett Station,3,,,000000,FFFFFF,
+97,97-3,4,S to Everett Station - N to College Station,3,,,000000,FFFFFF,
+97,97-4,7,S to Mall Station - N to College Station,3,,,000000,FFFFFF,

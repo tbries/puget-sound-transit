@@ -1,0 +1,11 @@
+feed_id,feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,default_lang,feed_contact_email,feed_contact_url
+1,Metro Transit,https://kingcounty.gov/en/dept/metro,EN,20260519,20260828,SPR26-160.3-Farev2Correction,,,
+3,PT,https://www.piercetransit.org/,en,20260329,20260829,S1000129:S1000132,,rholmes@piercetransit.org,https://www.piercetransit.org/contact-us/
+29,Community Transit,http://www.communitytransit.org/,en,20260522,20260828,20260522-20260828,,OpenData@commtrans.org,
+19,Intercity Transit,https://www.intercitytransit.com/,en,20260602,20260912,20260602,,,
+40,Sound Transit,https://www.soundtransit.org,en,20260414,20260828,SC-Spring-2026.9,en,open_transit_data@soundtransit.org,https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd
+51,Amtrak,http://www.amtrak.com,en,20260304,20270330,2026railplus_no_summer,en,DL_DTGTFSsupport@Amtrak.com,http://www.amtrak.com
+95,Washington State Ferries,https://www.wsdot.wa.gov/ferries/,en,,,PDT: 05-Jun-2026 11:08,,,
+96,Seattle Monorail Services,https://www.seattlemonorail.com,en,20250523,20261130,2026-Apr-A,,info@seattlemonorail.com,
+20,Kitsap Transit,http://www.kitsaptransit.com,en,20260315,20260912,S1000063:S1000060,,lindsayc@kitsaptransit.com,
+97,Strategic Mapping Inc.,http://www.mapstrat.com,en,20260531,20260905,4fcef50b-1dfc-45aa-8abb-b2eecb95b162,,,

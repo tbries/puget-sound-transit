@@ -1,0 +1,7 @@
+# Node (only used for local smoke-testing the static site)
+node_modules/
+package-lock.json
+
+# macOS
+.DS_Store
+**/.DS_Store

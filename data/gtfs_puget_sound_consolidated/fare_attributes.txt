@@ -1,0 +1,6 @@
+fare_id,price,currency_type,payment_method,transfers,agency_id,transfer_duration,youth_price,senior_price
+1,2.0,USD,0,0,,,1.0,1.0
+31,2.75,USD,0,0,,,1.5,1.0
+full,2.0,USD,0,,3,7200,0.0,0.0
+stexpress_full,3.0,USD,0,,40,7200,0.0,0.0
+32,3.75,USD,0,0,,,2.75,1.75
