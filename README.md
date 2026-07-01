@@ -5,7 +5,7 @@ Browse and filter routes from every major agency in the consolidated GTFS feed b
 **mode**, **service days**, **time of day**, and **text search**, and optionally show the stops
 served by the routes currently displayed.
 
-👉 **Live site:** `https://tbries.github.io/puget-sound-transit/` (after enabling Pages — see below)
+👉 **Live site:** <https://tbries.github.io/puget-sound-transit/>
 
 ## Features
 
@@ -18,6 +18,8 @@ served by the routes currently displayed.
   - **Service days** — Weekday / Saturday / Sunday.
   - **Time of day** — Early morning, Daytime, Evening, Late night.
   - **Text search** — by route number or name.
+- **Individual route toggles** — a per-route list (reflecting the active filters) lets you enable or
+  disable specific routes, with All / None shortcuts.
 - Click a route for details (agency, mode, days, service span, destinations, schedule link).
 - Toggleable **stops** layer showing only the stops served by the routes currently visible.
 
@@ -31,8 +33,9 @@ Sound Transit's Open Transit Data (OTD) program:
 - OTD overview: <https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd>
 
 The raw GTFS cannot be served directly — `stop_times.txt` alone is ~251 MB, over GitHub's 100 MB
-per-file limit. A build step preprocesses the feed into compact artifacts under
-[`docs/data/`](docs/data) that the static site loads at runtime:
+per-file limit, so it is tracked with **[Git LFS](https://git-lfs.com/)** (see below). A build step
+preprocesses the feed into compact artifacts under [`docs/data/`](docs/data) that the static site
+loads at runtime:
 
 | Artifact              | Contents                                                            |
 | --------------------- | ------------------------------------------------------------------- |
@@ -85,12 +88,24 @@ docs/                                 # GitHub Pages site root
   data/                               # committed build artifacts
 ```
 
+## Large files (Git LFS)
+
+`data/gtfs_puget_sound_consolidated/stop_times.txt` (~251 MB) exceeds GitHub's 100 MB per-file
+limit, so it is stored with [Git LFS](https://git-lfs.com/) (see `.gitattributes`). After cloning,
+install LFS and pull the file:
+
+```bash
+brew install git-lfs   # or your platform's package manager
+git lfs install
+git lfs pull
+```
+
+The static site never needs this file at runtime — only the built artifacts in `docs/data/` are
+served. It is required only to re-run `scripts/build_data.py` and can otherwise be re-downloaded
+from the OTD feed.
+
 ## Notes & limitations
 
-- **`stop_times.txt` (~251 MB) is git-ignored** because it exceeds GitHub's 100 MB file limit.
-  The static site never needs it at runtime — only the built artifacts in `docs/data/` are served.
-  Keep the file locally to rebuild via `scripts/build_data.py`, re-download it from the OTD feed,
-  or track it with [Git LFS](https://git-lfs.com/) if you want it versioned in the repo.
 - Eight routes in the feed have no trips and therefore no geometry or service info; they are loaded
   but never matched by the day/time filters.
 - Route geometry is simplified for size; it is intended for overview/browsing, not navigation.
