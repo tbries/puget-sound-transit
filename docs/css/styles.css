@@ -141,6 +141,30 @@ html, body {
   color: var(--muted);
 }
 
+/* Individual route list ------------------------------------------------ */
+.count-badge {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.route-list {
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 4px;
+  gap: 4px;
+}
+
+.route-opt {
+  font-size: 12px;
+}
+
+.route-opt .route-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Map ------------------------------------------------------------------ */
 #map-wrap {
   position: relative;

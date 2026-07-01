@@ -41,6 +41,7 @@ const state = {
     buckets: new Set([0, 1, 2, 3]), // time-of-day indices
     search: "",
   },
+  disabledRoutes: new Set(), // route ids individually turned off in the sidebar
   showStops: false,
 };
 
@@ -154,7 +155,8 @@ function openRoutePopup(route, layer) {
 }
 
 // --- Filtering -------------------------------------------------------------
-function routeMatches(route) {
+// Whether a route passes the category filters (agency/mode/day/time/search).
+function matchesCategories(route) {
   const f = state.filters;
   // Empty selection means "none" (consistent across all filter groups).
   if (!f.agencies.has(route.agency_id)) return false;
@@ -184,13 +186,25 @@ function routeMatches(route) {
   return true;
 }
 
+// A route is drawn only if it passes the filters AND isn't individually disabled.
+function isVisible(route) {
+  return matchesCategories(route) && !state.disabledRoutes.has(route.id);
+}
+
+// Category filters / search / All-None changed: rebuild the route list, redraw.
 function applyFilters() {
+  renderRouteList();
+  applyVisibility();
+}
+
+// Redraw map layers, stops and summary from the current visibility state.
+function applyVisibility() {
   routeLayerGroup.clearLayers();
   const visibleRouteIds = new Set();
   let visibleCount = 0;
 
   state.routesById.forEach((route, rid) => {
-    if (!routeMatches(route)) return;
+    if (!isVisible(route)) return;
     visibleCount += 1;
     visibleRouteIds.add(rid);
     const layers = state.shapeLayersByRoute.get(rid);
@@ -283,6 +297,77 @@ function buildBucketOptions() {
   });
 }
 
+// Individual route list: reflects the routes matching current category filters,
+// each toggleable on/off. Rebuilt whenever category filters/search change.
+function renderRouteList() {
+  const container = document.getElementById("route-options");
+  const countEl = document.getElementById("route-count");
+  container.textContent = "";
+
+  const candidates = [];
+  state.routesById.forEach((route) => {
+    if (matchesCategories(route)) candidates.push(route);
+  });
+
+  if (countEl) countEl.textContent = String(candidates.length);
+
+  if (candidates.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "hint";
+    empty.textContent = "No routes match the current filters.";
+    container.appendChild(empty);
+    return;
+  }
+
+  const frag = document.createDocumentFragment();
+  candidates.forEach((route) => {
+    const lbl = document.createElement("label");
+    lbl.className = "opt route-opt";
+    lbl.title = route.long_name || route.short_name || route.id;
+
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = !state.disabledRoutes.has(route.id);
+    cb.value = route.id;
+    cb.addEventListener("change", onRouteToggle);
+    lbl.appendChild(cb);
+
+    const sw = document.createElement("span");
+    sw.className = "swatch";
+    sw.style.background = hexColor(route);
+    lbl.appendChild(sw);
+
+    const name = document.createElement("span");
+    name.className = "route-name";
+    const label = route.short_name || route.long_name || route.id;
+    name.textContent = label;
+    lbl.appendChild(name);
+
+    frag.appendChild(lbl);
+  });
+  container.appendChild(frag);
+}
+
+function onRouteToggle(e) {
+  const id = e.target.value;
+  if (e.target.checked) state.disabledRoutes.delete(id);
+  else state.disabledRoutes.add(id);
+  applyVisibility();
+}
+
+// Enable/disable every route currently listed (respecting category filters).
+function setListedRoutes(enabled) {
+  state.routesById.forEach((route) => {
+    if (!matchesCategories(route)) return;
+    if (enabled) state.disabledRoutes.delete(route.id);
+    else state.disabledRoutes.add(route.id);
+  });
+  document
+    .querySelectorAll("#route-options input")
+    .forEach((cb) => { cb.checked = enabled; });
+  applyVisibility();
+}
+
 function makeOption(group, value, label, count, swatchColor, checked) {
   const lbl = document.createElement("label");
   lbl.className = "opt";
@@ -343,6 +428,15 @@ function wireGroupButtons() {
   });
 }
 
+function wireRouteButtons() {
+  document
+    .getElementById("route-all")
+    .addEventListener("click", () => setListedRoutes(true));
+  document
+    .getElementById("route-none")
+    .addEventListener("click", () => setListedRoutes(false));
+}
+
 function toggleGroup(group, on) {
   const set = filterSetFor(group);
   set.clear();
@@ -396,7 +490,7 @@ function wireMapMove() {
     t = setTimeout(() => {
       const visible = new Set();
       state.routesById.forEach((r, rid) => {
-        if (routeMatches(r)) visible.add(rid);
+        if (isVisible(r)) visible.add(rid);
       });
       renderStops(visible);
     }, 120);
@@ -414,6 +508,7 @@ async function boot() {
     buildDayOptions();
     buildBucketOptions();
     wireGroupButtons();
+    wireRouteButtons();
     wireSearch();
     wireStopsToggle();
     wireSidebarToggle();
