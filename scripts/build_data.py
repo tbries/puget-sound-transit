@@ -61,6 +61,18 @@ SIMPLIFY_TOLERANCE = 0.0001
 COORD_PRECISION = 5
 
 
+def is_excluded_route(agency_id, long_name):
+    """Routes to omit from the map entirely.
+
+    Kitsap Transit (agency 20) runs a "Worker/Driver" commuter program — these
+    are volunteer-driven commuter routes, not regular fixed-route service, so we
+    exclude them from the browser.
+    """
+    if agency_id == "20" and "worker/driver" in (long_name or "").lower():
+        return True
+    return False
+
+
 def log(msg):
     print(msg, file=sys.stderr, flush=True)
 
@@ -159,6 +171,7 @@ def load_service_days():
 # ---------------------------------------------------------------------------
 def load_routes(agencies):
     routes = {}
+    excluded = 0
     with open_gtfs("routes.txt") as f:
         for row in csv.DictReader(f):
             rid = (row.get("route_id") or "").strip()
@@ -170,6 +183,9 @@ def load_routes(agencies):
             desc = (row.get("route_desc") or "").strip()
             color = (row.get("route_color") or "").strip()
             text_color = (row.get("route_text_color") or "").strip()
+            if is_excluded_route(aid, long or desc):
+                excluded += 1
+                continue
             routes[rid] = {
                 "id": rid,
                 "agency_id": aid,
@@ -189,7 +205,7 @@ def load_routes(agencies):
                 "service_ids": set(),
                 "headsigns": set(),
             }
-    log(f"routes: {len(routes)}")
+    log(f"routes: {len(routes)} (excluded {excluded})")
     return routes
 
 

@@ -108,5 +108,7 @@ from the OTD feed.
 
 - Eight routes in the feed have no trips and therefore no geometry or service info; they are loaded
   but never matched by the day/time filters.
+- Kitsap Transit's "Worker/Driver" commuter routes are intentionally excluded from the map (see
+  `is_excluded_route` in `scripts/build_data.py`).
 - Route geometry is simplified for size; it is intended for overview/browsing, not navigation.
 - Out of scope for now: realtime vehicle positions, trip planning, and a calendar date-range filter.
