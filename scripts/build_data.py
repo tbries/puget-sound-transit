@@ -19,6 +19,7 @@ Standard library only. Re-run after refreshing ``/data``.
 """
 
 import csv
+import datetime
 import json
 import os
 import sys
@@ -60,6 +61,9 @@ BUCKETS = [
 SIMPLIFY_TOLERANCE = 0.0001
 COORD_PRECISION = 5
 
+# Ignore trips that do not run after the last day of the previous schedule.
+SERVICE_AFTER_DATE = datetime.date(2026, 8, 29)
+
 
 def is_excluded_route(agency_id, long_name):
     """Routes to omit from the map entirely.
@@ -96,6 +100,14 @@ def parse_time_to_min(value):
     except ValueError:
         return None
     return h * 60 + m
+
+
+def parse_gtfs_date(value):
+    """Parse a GTFS YYYYMMDD date; return None for invalid values."""
+    try:
+        return datetime.datetime.strptime(value, "%Y%m%d").date()
+    except (TypeError, ValueError):
+        return None
 
 
 # ---------------------------------------------------------------------------
@@ -136,7 +148,6 @@ def load_service_days():
     # Fall back to calendar_dates for services with no calendar.txt row
     # (e.g. Amtrak). exception_type 1 = service added on that date.
     try:
-        import datetime
         with open_gtfs("calendar_dates.txt") as f:
             for row in csv.DictReader(f):
                 sid = (row.get("service_id") or "").strip()
@@ -164,6 +175,56 @@ def load_service_days():
 
     log(f"service_ids with day info: {len(days)}")
     return days
+
+
+def load_service_ids_after(after_date):
+    """Return service ids with at least one scheduled date after after_date."""
+    service_dates = {}
+    weekday_cols = [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday",
+    ]
+
+    try:
+        with open_gtfs("calendar.txt") as f:
+            for row in csv.DictReader(f):
+                sid = (row.get("service_id") or "").strip()
+                start = parse_gtfs_date(row.get("start_date"))
+                end = parse_gtfs_date(row.get("end_date"))
+                if not sid or start is None or end is None:
+                    continue
+                flags = [(row.get(col) or "0").strip() == "1" for col in weekday_cols]
+                date = max(start, after_date + datetime.timedelta(days=1))
+                while date <= end:
+                    if flags[date.weekday()]:
+                        service_dates.setdefault(sid, set()).add(date)
+                    date += datetime.timedelta(days=1)
+    except FileNotFoundError:
+        log("calendar.txt not found")
+
+    try:
+        with open_gtfs("calendar_dates.txt") as f:
+            for row in csv.DictReader(f):
+                sid = (row.get("service_id") or "").strip()
+                date = parse_gtfs_date(row.get("date"))
+                if not sid or date is None or date <= after_date:
+                    continue
+                exception_type = (row.get("exception_type") or "").strip()
+                if exception_type == "1":
+                    service_dates.setdefault(sid, set()).add(date)
+                elif exception_type == "2":
+                    service_dates.setdefault(sid, set()).discard(date)
+    except FileNotFoundError:
+        pass
+
+    service_ids = {sid for sid, dates in service_dates.items() if dates}
+    log(f"service_ids after {after_date.isoformat()}: {len(service_ids)}")
+    return service_ids
 
 
 # ---------------------------------------------------------------------------
@@ -212,27 +273,40 @@ def load_routes(agencies):
 # ---------------------------------------------------------------------------
 # 4. trips.txt -> trip_id -> route_id ; populate route shapes/services
 # ---------------------------------------------------------------------------
-def load_trips(routes):
+def load_trips(routes, active_service_ids):
     trip_to_route = {}
     with open_gtfs("trips.txt") as f:
         for row in csv.DictReader(f):
             rid = (row.get("route_id") or "").strip()
             tid = (row.get("trip_id") or "").strip()
-            if not rid or not tid or rid not in routes:
+            sid = (row.get("service_id") or "").strip()
+            if (
+                not rid
+                or not tid
+                or rid not in routes
+                or sid not in active_service_ids
+            ):
                 continue
             trip_to_route[tid] = rid
             r = routes[rid]
             shape = (row.get("shape_id") or "").strip()
             if shape:
                 r["shape_ids"].add(shape)
-            sid = (row.get("service_id") or "").strip()
-            if sid:
-                r["service_ids"].add(sid)
+            r["service_ids"].add(sid)
             hs = (row.get("trip_headsign") or "").strip()
             if hs:
                 r["headsigns"].add(hs)
     log(f"trips mapped: {len(trip_to_route)}")
     return trip_to_route
+
+
+def remove_routes_without_active_trips(routes):
+    inactive_route_ids = [
+        rid for rid, route in routes.items() if not route["service_ids"]
+    ]
+    for rid in inactive_route_ids:
+        del routes[rid]
+    log(f"routes without future service removed: {len(inactive_route_ids)}")
 
 
 def apply_service_days(routes, service_days):
@@ -512,8 +586,10 @@ def main():
     log("== Building transit map artifacts ==")
     agencies = load_agencies()
     service_days = load_service_days()
+    active_service_ids = load_service_ids_after(SERVICE_AFTER_DATE)
     routes = load_routes(agencies)
-    trip_to_route = load_trips(routes)
+    trip_to_route = load_trips(routes, active_service_ids)
+    remove_routes_without_active_trips(routes)
     apply_service_days(routes, service_days)
 
     log("streaming stop_times.txt (this is the slow step)...")
