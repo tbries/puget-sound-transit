@@ -44,6 +44,9 @@ loads at runtime:
 | `stops.geojson`       | Trimmed stops, each tagged with the route ids it serves.            |
 | `meta.json`           | Agency, mode, service-day, and time-bucket definitions for the UI.  |
 
+The build includes only trips scheduled after August 29, 2026, removing routes that exist in the
+feed solely for expired service periods.
+
 These artifacts are **committed** to the repo so GitHub Pages can serve them with no server-side build.
 
 ## Rebuilding the data
